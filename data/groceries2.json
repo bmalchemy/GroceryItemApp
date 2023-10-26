@@ -1,0 +1,34 @@
+[
+  {
+    "location":"Mid west side",
+    "name": "Dog Food"
+  },
+  {
+    "location":"Aisle 1 or 2",
+    "name": "Jelly"
+  },
+  {
+    "location":"Produce",
+    "name": "Jalapenos"
+  },
+  {
+    "location":"Aisle 1 or 2",
+    "name": "Mayonaisse"
+  },
+  {
+    "location":"Cold west side",
+    "name": "Milk"
+  },
+  {
+    "location":"Produce",
+    "name": "Onions"
+  },
+  {
+    "location":"Cold west side",
+    "name": "Orange Juice"
+  },
+  {
+    "location":"",
+    "name": "Dog Food"
+  }
+]

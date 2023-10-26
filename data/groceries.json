@@ -1,0 +1,46 @@
+[
+  {
+    "title":"D",
+    "data":[
+      "Dog Food"
+    ]
+  },
+  {
+    "title":"D",
+    "data":[
+      "Jelly",
+      "Jam",
+      "Jalapenos"
+    ]
+  },
+  {
+    "title":"M",
+    "data":[
+      "Mayonnaise",
+      "Milk"
+    ]
+  },
+  {
+    "title":"O",
+    "data":[
+      "Onions",
+      "Orange Juice"
+    ]
+  },
+  {
+    "title":"P",
+    "data":[
+      "Pickles",
+      "Pineapples",
+      "Potatoes"
+    ]
+  },
+  {
+    "title":"T",
+    "data":[
+      "Turkey",
+      "Toilet Paper",
+      "Tator Tots"
+    ]
+  }
+]

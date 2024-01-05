@@ -7,9 +7,10 @@
 
 import React, {useEffect, useState} from 'react';
 import type {PropsWithChildren} from 'react';
+import NavContainer from './src/NavContainer'
 import GroceryList from './src/GroceryList';
-import HomeScreen from './src/HomeScreen'
-import GroceryItemsScreen from './src/GroceryItemsScreen'
+/* import HomeScreen from './src/HomeScreen'
+import GroceryItemsScreen from './src/GroceryItemsScreen' */
 import {
   SafeAreaView,
   SectionList,
@@ -105,17 +106,8 @@ function App(): JSX.Element {
     );
   };
   return (
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen
-            name="Home"
-            component={HomeScreen}
-            options={{title: 'Welcome'}}
-          />
-          <Stack.Screen name="GroceryItems" component={GroceryItemsScreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
-
+    <NavContainer />
+  );
 //  <GroceryItems />
 //     <View style={styles.container}>
 //       <StatusBar style="light" />
@@ -135,9 +127,8 @@ function App(): JSX.Element {
 //         />
 //       </SafeAreaView>
 //     </View>
-  );
-}
 
+}
 const styles = StyleSheet.create({
   container: {
     flex: 1,
